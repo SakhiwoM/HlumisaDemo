@@ -1,0 +1,225 @@
+.hero-text {
+  max-width: 60ch;
+  font-size: 1.05rem;
+}
+
+.hero-copy {
+  padding-right: 0.5rem;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-actions {
+  margin: 2rem 0 1.75rem;
+}
+
+.highlight-chip span {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.highlight-chip strong {
+  font-size: 1rem;
+}
+
+.hero-stat-card span {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.hero-stat-card strong,
+.donate-summary strong {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: clamp(1.7rem, 5vw, 2.5rem);
+  line-height: 1.05;
+}
+
+.hero-floating-badge {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.hero-floating-badge img {
+  width: 108px;
+  max-width: 100%;
+}
+
+.intro-item {
+  padding: 0.6rem;
+}
+
+.intro-item h2 {
+  font-size: clamp(1.35rem, 3vw, 1.8rem);
+}
+
+.intro-item p,
+.feature-card p,
+.about-story p,
+.info-card p,
+.contact-card p,
+.footer-brand p {
+  color: var(--muted);
+}
+
+.info-card,
+.project-body,
+.contact-card,
+.contact-form-wrap,
+.cta-form,
+.donate-panel {
+  height: 100%;
+}
+
+.demo-form {
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.form-field label,
+.custom-amount-wrapper > span:first-child {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.input-control,
+.input-shell {
+  width: 100%;
+  border: 1px solid rgba(29, 106, 74, 0.16);
+  border-radius: 16px;
+  background: #fcfcf9;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input-control {
+  padding: 0.95rem 1rem;
+  color: var(--text);
+}
+
+textarea.input-control {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.input-control:focus,
+.input-shell:focus-within {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(29, 106, 74, 0.12);
+}
+
+.form-status {
+  min-height: 1.2rem;
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.text-link {
+  margin-top: auto;
+}
+
+.donate-panel {
+  background: rgba(253, 253, 249, 0.98);
+  color: var(--text);
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+.donate-note {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.donation-tier:hover,
+.donation-tier:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(29, 106, 74, 0.22);
+}
+
+.custom-amount-wrapper {
+  margin-bottom: 1rem;
+}
+
+.donate-summary p {
+  margin-bottom: 0.35rem;
+}
+
+.contact-cards {
+  align-content: start;
+}
+
+.footer-grid {
+  align-items: start;
+}
+
+.footer-brand p {
+  max-width: 46ch;
+  margin-top: 1rem;
+}
+
+.footer-list a:hover,
+.footer-list a:focus-visible,
+.text-link:hover,
+.text-link:focus-visible,
+.detail-link:hover,
+.detail-link:focus-visible {
+  color: var(--primary-dark);
+}
+
+.brand-footer .brand-copy small,
+.site-footer a {
+  color: rgba(232, 241, 235, 0.78);
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #fff;
+}
+
+.footer-social {
+  margin-top: 1rem;
+}
+
+.footer-social .social-link {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eef5ea;
+}
+
+.footer-social .social-mark {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 1.15rem 0 1.6rem;
+}
+
+.modal-dialog {
+  border-radius: var(--radius-lg);
+}
+
+.modal-actions {
+  margin-top: 1.2rem;
+}

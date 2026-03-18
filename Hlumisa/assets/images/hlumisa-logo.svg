@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 470">
+  <circle cx="210" cy="150" r="126" fill="#222221"/>
+  <path d="M211 240v-78c0-23 11-41 29-56" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12"/>
+  <path d="M211 206c-10-22-27-36-53-43" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12"/>
+  <path d="M211 180c-2-29-14-53-35-73" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12"/>
+  <path d="M253 73c0 20 5 35 14 46 11-9 18-25 18-43 0-19-9-31-25-39-4 10-7 21-7 36Z" fill="#2998e3"/>
+  <path d="M192 88c0 20 4 34 13 45 10-9 17-25 17-45 0-18-8-31-23-38-5 9-7 21-7 38Z" fill="#f5c628"/>
+  <path d="M127 162c15 5 27 4 36 0 9-4 15-12 19-24-11-9-24-11-39-6-14 4-24 14-30 29 5 1 9 1 14 1Z" fill="#cf1f2c"/>
+  <text x="210" y="360" fill="#222221" font-family="Manrope, Arial, sans-serif" font-size="78" font-weight="800" text-anchor="middle" letter-spacing="2">HLUMISA</text>
+</svg>

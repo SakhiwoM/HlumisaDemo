@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="28" fill="#eef5ea"/>
+  <rect x="48" y="44" width="220" height="52" rx="20" fill="#fff"/>
+  <text x="76" y="78" fill="#123d2e" font-family="Manrope, sans-serif" font-size="22" font-weight="800">Tree Planting Campaigns</text>
+  <path d="M238 280c20-52 54-80 102-80s82 28 102 80" fill="#d9b89d"/>
+  <path d="M272 312c17-26 44-38 82-38s65 12 82 38" fill="#be7443"/>
+  <path d="M318 208c0-46 14-82 42-108 28 26 42 62 42 108" fill="#8ca96f"/>
+  <path d="M360 90c18 20 34 34 62 40-12 18-29 28-52 30" fill="#1d6a4a"/>
+  <path d="M360 112c-16 18-33 30-60 34 10 18 27 28 49 30" fill="#63a26d"/>
+  <path d="M360 160v118" fill="none" stroke="#123d2e" stroke-linecap="round" stroke-width="10"/>
+  <ellipse cx="360" cy="318" rx="122" ry="26" fill="#123d2e" opacity=".1"/>
+</svg>

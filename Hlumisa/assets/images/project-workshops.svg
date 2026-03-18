@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="28" fill="#eef5ea"/>
+  <rect x="44" y="46" width="180" height="52" rx="20" fill="#fff"/>
+  <text x="76" y="79" fill="#123d2e" font-family="Manrope, sans-serif" font-size="22" font-weight="800">Climate Workshops</text>
+  <rect x="380" y="120" width="170" height="118" rx="20" fill="#fff"/>
+  <rect x="402" y="144" width="126" height="12" rx="6" fill="#8ca96f"/>
+  <rect x="402" y="172" width="96" height="12" rx="6" fill="#be7443"/>
+  <rect x="402" y="200" width="114" height="12" rx="6" fill="#1d6a4a"/>
+  <path d="M360 110v155" stroke="#123d2e" stroke-linecap="round" stroke-width="10"/>
+  <path d="M292 314c10-30 34-46 68-46s58 16 68 46" fill="#1d6a4a"/>
+  <circle cx="360" cy="236" r="28" fill="#123d2e"/>
+  <circle cx="206" cy="274" r="24" fill="#be7443"/>
+  <path d="M164 348c9-28 30-43 60-43s51 15 60 43" fill="#d9b89d"/>
+  <circle cx="120" cy="286" r="20" fill="#8ca96f"/>
+  <path d="M86 348c8-22 24-34 48-34s40 12 48 34" fill="#c8dfba"/>
+</svg>

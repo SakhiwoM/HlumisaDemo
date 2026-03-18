@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef5ea"/>
+      <stop offset="100%" stop-color="#f7efe4"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#63a26d"/>
+      <stop offset="100%" stop-color="#1d6a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="620" rx="34" fill="url(#bg)"/>
+  <circle cx="120" cy="520" r="90" fill="#be7443" opacity=".12"/>
+  <circle cx="690" cy="120" r="110" fill="#8ca96f" opacity=".22"/>
+  <rect x="86" y="92" width="224" height="118" rx="26" fill="#fff" opacity=".94"/>
+  <text x="126" y="143" fill="#123d2e" font-family="Manrope, sans-serif" font-size="18" font-weight="700">Youth + Climate</text>
+  <text x="126" y="176" fill="#5f7066" font-family="Manrope, sans-serif" font-size="34" font-weight="800">Local Action</text>
+  <circle cx="430" cy="275" r="134" fill="url(#globe)"/>
+  <path d="M375 244c18-22 39-23 58-18 22 6 42 3 54-16 6 25-3 53-27 64-19 9-49 8-85-30Z" fill="#d9efd2"/>
+  <path d="M389 325c17-13 36-16 55-14 25 2 44-9 57-28 5 29-6 57-30 71-22 13-55 12-82-29Z" fill="#d9efd2"/>
+  <path d="M276 165c17-38 48-62 90-70-15 36-32 58-65 79Z" fill="#8ca96f" opacity=".6"/>
+  <path d="M540 120c28 14 49 37 60 71-28-9-51-27-68-54Z" fill="#1d6a4a" opacity=".18"/>
+  <g transform="translate(145 344)">
+    <circle cx="66" cy="42" r="26" fill="#123d2e"/>
+    <path d="M32 113c8-26 27-39 55-39s47 13 55 39" fill="#1d6a4a"/>
+    <rect x="94" y="68" width="48" height="66" rx="18" fill="#c8dfba"/>
+    <path d="M91 118c15 10 35 10 52 0" fill="none" stroke="#123d2e" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <g transform="translate(528 330)">
+    <circle cx="58" cy="40" r="24" fill="#be7443"/>
+    <path d="M27 112c7-23 24-36 49-36s42 13 49 36" fill="#d9b89d"/>
+    <rect x="6" y="68" width="42" height="68" rx="16" fill="#123d2e"/>
+    <path d="M39 122c18 10 38 10 56 0" fill="none" stroke="#123d2e" stroke-linecap="round" stroke-width="4"/>
+  </g>
+  <path d="M222 492c51-24 112-11 162 22 54 35 116 42 179 10" fill="none" stroke="#1d6a4a" stroke-linecap="round" stroke-width="8"/>
+  <path d="M614 476c24-8 47-2 61 15-21 8-40 5-61-15Z" fill="#8ca96f"/>
+  <path d="M188 472c20-14 42-17 61-10-16 15-37 19-61 10Z" fill="#1d6a4a"/>
+</svg>
