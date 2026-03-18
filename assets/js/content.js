@@ -1,3 +1,7 @@
+const instagramIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.7" r="1"></circle></svg>';
+const facebookIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z"></path></svg>';
+const linkedinIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.8 8.5a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8Zm-1.7 2.1h3.3v8.4H5.1Zm5.3 0h3.2v1.2h.1c.4-.8 1.5-1.6 3.1-1.6 3.4 0 4 2.1 4 4.9v5h-3.3v-4.4c0-1 0-2.4-1.5-2.4s-1.7 1.1-1.7 2.3v4.5h-3.3Z"></path></svg>';
+
 // Edit the text, links, icons, and image paths in the data below.
 const serviceItems = [
   {
@@ -32,6 +36,8 @@ const projectItems = [
     tag: "2020 milestone",
     title: "Interactive Forum Concept",
     text: "Hlumisa was first conceived in 2020 as an interactive forum event for young climate leaders between ECCo and Bushfire Festival.",
+    detail:
+      "The original concept for Hlumisa started as a youth climate forum linked to ECCo and Bushfire Festival. Although Covid-19 disrupted the initial event, the idea created the foundation for a longer-term youth climate movement that could grow beyond a single gathering.",
     image: "assets/images/project-workshops.svg",
     alt: "Illustration for interactive forum concept",
   },
@@ -39,6 +45,8 @@ const projectItems = [
     tag: "2021 milestone",
     title: "NDC Youth Engagement",
     text: "The revision of Eswatini's Nationally Determined Contributions helped reinvigorate Hlumisa, bringing together fresh young minds and a steering committee.",
+    detail:
+      "The 2021 NDC revision process created a practical opening for youth participation. Hlumisa's momentum grew through planning, brainstorming, and the formation of a steering committee focused on youth-led climate action in Eswatini.",
     image: "assets/images/project-school-outreach.svg",
     alt: "Illustration for NDC youth engagement",
   },
@@ -46,22 +54,28 @@ const projectItems = [
     tag: "2022 milestone",
     title: "Green Round Table Launch",
     text: "Hlumisa was launched at the first edition of the Green Round Table, an annual event for young environmentalists in collaboration with Bushfire.",
-    image: "assets/images/project-tree-planting.svg",
-    alt: "Illustration for Green Round Table launch",
+    detail:
+      "The 2022 launch gave Hlumisa a visible public platform and connected the movement to an annual youth environmental gathering. This kind of moment helps translate ideas into a recognizable network with a stronger public presence.",
+    image: "assets/images/social-partnerships.jpg",
+    alt: "Public Hlumisa social image showing partnership and event moments",
   },
   {
     tag: "Current focus",
     title: "Creative Climate Platforms",
     text: "Volunteer-led projects can combine creative arts, storytelling, and youth dialogue to make environmental action visible and collaborative.",
-    image: "assets/images/project-policy-dialogues.svg",
-    alt: "Illustration for creative climate platforms",
+    detail:
+      "Hlumisa publicly highlights creative arts as part of its work. This website frames that focus as a strong engagement channel for youth dialogue, public storytelling, and climate communication that feels participatory rather than purely institutional.",
+    image: "assets/images/social-network-chill.jpg",
+    alt: "Public Hlumisa social image for Network and Chill activity dates",
   },
   {
     tag: "Current focus",
     title: "Digital and Physical Gathering Spaces",
     text: "Hlumisa focuses on platforms where young people can gather, exchange ideas, and learn together across both digital and physical spaces.",
-    image: "assets/images/project-cleanup.svg",
-    alt: "Illustration for digital and physical gathering spaces",
+    detail:
+      "One of Hlumisa's clearest strengths is building spaces for gathering and collective learning. The website presents this as a core movement function that can support events, dialogue, partnerships, and future youth-led environmental initiatives.",
+    image: "assets/images/social-community-space.jpg",
+    alt: "Public Hlumisa social image showing community gathering spaces",
   },
 ];
 
@@ -101,7 +115,7 @@ const contactItems = [
   },
   {
     title: "Social Links",
-    text: '<div class="social-row"><a class="social-link" href="https://www.instagram.com/hlumisa_sz?igsh=MTNpdGVzYTcyN2sxMw==" target="_blank" rel="noreferrer" aria-label="Hlumisa Instagram"><span class="social-mark" aria-hidden="true">IG</span><span>Instagram</span></a><a class="social-link" href="https://www.facebook.com/share/17DvACKTM2/" target="_blank" rel="noreferrer" aria-label="Hlumisa Facebook"><span class="social-mark" aria-hidden="true">FB</span><span>Facebook</span></a><a class="social-link" href="https://www.linkedin.com/company/hlumisa-youth-climate-network/" target="_blank" rel="noreferrer" aria-label="Hlumisa LinkedIn"><span class="social-mark" aria-hidden="true">IN</span><span>LinkedIn</span></a></div><p class="micro-copy">Add the official X / Twitter link here if you want it displayed too.</p>',
+    text: `<div class="social-row"><a class="social-link" href="https://www.instagram.com/hlumisa_sz?igsh=MTNpdGVzYTcyN2sxMw==" target="_blank" rel="noreferrer" aria-label="Hlumisa Instagram"><span class="social-mark social-icon" aria-hidden="true">${instagramIcon}</span><span>Instagram</span></a><a class="social-link" href="https://www.facebook.com/share/17DvACKTM2/" target="_blank" rel="noreferrer" aria-label="Hlumisa Facebook"><span class="social-mark social-icon" aria-hidden="true">${facebookIcon}</span><span>Facebook</span></a><a class="social-link" href="https://www.linkedin.com/company/hlumisa-youth-climate-network/" target="_blank" rel="noreferrer" aria-label="Hlumisa LinkedIn"><span class="social-mark social-icon" aria-hidden="true">${linkedinIcon}</span><span>LinkedIn</span></a></div><p class="micro-copy">Add the official X / Twitter link here if you want it displayed too.</p>`,
     icon: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a7 7 0 0 1 7 7"></path><path d="M5 12a7 7 0 0 1 7-7"></path><path d="M12 19a7 7 0 0 1-7-7"></path><path d="M19 12a7 7 0 0 1-7 7"></path><circle cx="12" cy="12" r="2"></circle></svg>',
   },
 ];
@@ -129,14 +143,14 @@ function renderProjects() {
 
   root.innerHTML = projectItems
     .map(
-      (item) => `
-        <article class="card project-card reveal">
+      (item, index) => `
+        <article class="card project-card reveal js-project-card" data-project-index="${index}">
           <img src="${item.image}" alt="${item.alt}">
           <div class="project-body">
             <span class="tag">${item.tag}</span>
             <h3>${item.title}</h3>
             <p>${item.text}</p>
-            <a class="text-link" href="#contact">Read More</a>
+            <button class="text-link project-link js-open-project" type="button" data-project-index="${index}">Read More</button>
           </div>
         </article>
       `
@@ -182,3 +196,5 @@ renderServices();
 renderProjects();
 renderInvolvement();
 renderContacts();
+
+window.projectItems = projectItems;

@@ -1,21 +1,62 @@
 :root {
-  --bg: #f7f3e9;
+  --bg: #f5f4ef;
   --surface: rgba(255, 255, 255, 0.92);
-  --surface-soft: #eef4e7;
-  --text: #1e2d25;
-  --muted: #5f7066;
-  --primary: #1d6a4a;
-  --primary-dark: #123d2e;
-  --secondary: #8ca96f;
-  --accent: #be7443;
-  --line: rgba(29, 106, 74, 0.14);
-  --shadow: 0 18px 50px rgba(18, 33, 25, 0.1);
-  --shadow-strong: 0 28px 70px rgba(18, 33, 25, 0.18);
+  --surface-soft: #eef6fd;
+  --surface-strong: #ffffff;
+  --text: #222221;
+  --muted: #5f6167;
+  --primary: #49ace8;
+  --primary-dark: #3948a4;
+  --secondary: #f8d82e;
+  --accent: #dc2f2c;
+  --accent-soft: #fff5c9;
+  --banner: #222221;
+  --footer-bg: #171717;
+  --footer-text: rgba(244, 246, 248, 0.88);
+  --footer-link: #eef6fd;
+  --ambient-a: rgba(73, 172, 232, 0.18);
+  --ambient-b: rgba(248, 216, 46, 0.16);
+  --hero-a: rgba(73, 172, 232, 0.2);
+  --hero-b: rgba(220, 47, 44, 0.1);
+  --line: rgba(34, 34, 33, 0.12);
+  --shadow: 0 18px 50px rgba(34, 34, 33, 0.1);
+  --shadow-strong: 0 28px 70px rgba(34, 34, 33, 0.18);
+  --donate-start: #222221;
+  --donate-mid: #3948a4;
+  --donate-end: #49ace8;
   --radius-xl: 32px;
   --radius-lg: 26px;
   --radius-md: 20px;
   --container: 1140px;
-  --header-height: 78px;
+  --header-height: 94px;
+}
+
+body[data-theme="dark"] {
+  --bg: #101114;
+  --surface: rgba(24, 26, 30, 0.92);
+  --surface-soft: #182233;
+  --surface-strong: #12151b;
+  --text: #f4f6f8;
+  --muted: #c4cad3;
+  --primary: #62c3f5;
+  --primary-dark: #5d6de0;
+  --secondary: #ffe052;
+  --accent: #ff5a57;
+  --accent-soft: rgba(248, 216, 46, 0.1);
+  --banner: #050608;
+  --footer-bg: #050608;
+  --footer-text: rgba(244, 246, 248, 0.88);
+  --footer-link: #eef6fd;
+  --ambient-a: rgba(73, 172, 232, 0.14);
+  --ambient-b: rgba(220, 47, 44, 0.12);
+  --hero-a: rgba(73, 172, 232, 0.16);
+  --hero-b: rgba(220, 47, 44, 0.12);
+  --line: rgba(255, 255, 255, 0.12);
+  --shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  --shadow-strong: 0 28px 70px rgba(0, 0, 0, 0.42);
+  --donate-start: #090b0f;
+  --donate-mid: #1d2656;
+  --donate-end: #204b66;
 }
 
 *,
@@ -33,11 +74,14 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(140, 169, 111, 0.18), transparent 30%),
-    radial-gradient(circle at 95% 8%, rgba(190, 116, 67, 0.12), transparent 20%),
-    linear-gradient(180deg, #fcfbf7 0%, var(--bg) 100%);
+    radial-gradient(circle at top left, var(--ambient-a), transparent 30%),
+    radial-gradient(circle at 95% 8%, var(--ambient-b), transparent 20%),
+    linear-gradient(180deg, var(--surface-strong) 0%, var(--bg) 100%);
   line-height: 1.6;
   text-rendering: optimizeLegibility;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 body.nav-open,
@@ -46,7 +90,7 @@ body.modal-open {
 }
 
 ::selection {
-  background: rgba(29, 106, 74, 0.16);
+  background: color-mix(in srgb, var(--primary) 24%, transparent);
 }
 
 img {
@@ -166,7 +210,7 @@ ul {
 .btn-primary {
   background: var(--primary);
   color: #fff;
-  box-shadow: 0 16px 32px rgba(29, 106, 74, 0.22);
+  box-shadow: 0 16px 32px color-mix(in srgb, var(--primary) 26%, transparent);
 }
 
 .btn-primary:hover,
@@ -175,9 +219,9 @@ ul {
 }
 
 .btn-secondary {
-  background: rgba(255, 255, 255, 0.78);
+  background: color-mix(in srgb, var(--surface-strong) 88%, transparent);
   color: var(--primary-dark);
-  box-shadow: 0 16px 30px rgba(18, 33, 25, 0.1);
+  box-shadow: 0 16px 30px rgba(34, 34, 33, 0.1);
 }
 
 .btn-block {
@@ -202,6 +246,6 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(29, 106, 74, 0.26);
+  outline: 3px solid color-mix(in srgb, var(--primary) 36%, transparent);
   outline-offset: 2px;
 }

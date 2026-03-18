@@ -12,7 +12,7 @@
   height: 56px;
   margin-bottom: 1rem;
   border-radius: 18px;
-  background: linear-gradient(135deg, rgba(29, 106, 74, 0.12), rgba(140, 169, 111, 0.26));
+  background: linear-gradient(135deg, color-mix(in srgb, var(--primary) 18%, transparent), color-mix(in srgb, var(--secondary) 34%, transparent));
   color: var(--primary-dark);
 }
 
@@ -29,6 +29,7 @@
 .project-card {
   overflow: hidden;
   height: 100%;
+  cursor: pointer;
 }
 
 .project-card img {
@@ -67,7 +68,7 @@
   color: #f4faf5;
   background:
     radial-gradient(circle at 80% 15%, rgba(255, 255, 255, 0.08), transparent 18%),
-    linear-gradient(135deg, #103b2d 0%, #1d6a4a 55%, #2b7b59 100%);
+    linear-gradient(135deg, var(--donate-start) 0%, var(--donate-mid) 55%, var(--donate-end) 100%);
 }
 
 .donate-copy .section-kicker,
@@ -114,9 +115,9 @@
 .donation-tier {
   min-height: 58px;
   padding: 1rem;
-  border: 1px solid rgba(29, 106, 74, 0.12);
+  border: 1px solid var(--line);
   border-radius: 18px;
-  background: #f6f2e8;
+  background: color-mix(in srgb, var(--surface-soft) 88%, transparent);
   color: var(--primary-dark);
   font-weight: 800;
 }
@@ -124,7 +125,7 @@
 .donation-tier.active {
   background: var(--primary);
   color: #fff;
-  box-shadow: 0 14px 24px rgba(29, 106, 74, 0.2);
+  box-shadow: 0 14px 24px color-mix(in srgb, var(--primary) 24%, transparent);
 }
 
 .custom-amount-wrapper,
@@ -166,13 +167,13 @@
 }
 
 .summary-badge {
-  background: rgba(29, 106, 74, 0.12);
+  background: color-mix(in srgb, var(--primary) 18%, transparent);
   color: var(--primary-dark);
 }
 
 .social-link {
   gap: 0.55rem;
-  background: #f6f2e8;
+  background: color-mix(in srgb, var(--surface-soft) 86%, transparent);
 }
 
 .social-mark {
@@ -184,8 +185,8 @@
 
 .site-footer {
   padding-top: 3rem;
-  background: #0f241d;
-  color: rgba(232, 241, 235, 0.85);
+  background: var(--footer-bg);
+  color: var(--footer-text);
 }
 
 .brand-footer .brand-mark {
@@ -196,7 +197,7 @@
 .footer-title {
   margin-bottom: 0.9rem;
   font-weight: 800;
-  color: #fff;
+  color: var(--footer-link);
 }
 
 .footer-list {
@@ -233,7 +234,7 @@
 .modal-dialog {
   position: relative;
   width: min(100%, 520px);
-  background: #fff;
+  background: var(--surface-strong);
   box-shadow: 0 32px 90px rgba(8, 19, 14, 0.35);
 }
 
@@ -284,6 +285,12 @@
     display: inline-flex;
   }
 
+  .theme-toggle {
+    min-width: 48px;
+    justify-content: center;
+    padding-inline: 0.75rem;
+  }
+
   .site-nav {
     position: absolute;
     top: calc(100% + 0.65rem);
@@ -293,7 +300,7 @@
     gap: 0.35rem;
     padding: 0.9rem;
     border-radius: 24px;
-    background: rgba(255, 255, 255, 0.98);
+    background: color-mix(in srgb, var(--surface-strong) 96%, transparent);
     border: 1px solid var(--line);
     box-shadow: var(--shadow);
     opacity: 0;
@@ -332,6 +339,10 @@
 @media (max-width: 620px) {
   .container {
     width: min(var(--container), calc(100% - 1.25rem));
+  }
+
+  .brand-logo {
+    width: 74px;
   }
 
   .brand-copy {
