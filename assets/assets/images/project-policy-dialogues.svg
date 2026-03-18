@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" rx="28" fill="#f7efe4"/>
+  <rect x="48" y="44" width="214" height="52" rx="20" fill="#fff"/>
+  <text x="76" y="78" fill="#123d2e" font-family="Manrope, sans-serif" font-size="22" font-weight="800">Youth Policy Dialogues</text>
+  <rect x="154" y="164" width="332" height="128" rx="64" fill="#fff"/>
+  <circle cx="212" cy="154" r="26" fill="#1d6a4a"/>
+  <circle cx="430" cy="154" r="26" fill="#be7443"/>
+  <circle cx="320" cy="124" r="28" fill="#8ca96f"/>
+  <path d="M154 226h332" stroke="#c8dfba" stroke-width="8"/>
+  <path d="M222 292c8-26 25-40 52-40s44 14 52 40" fill="#1d6a4a"/>
+  <path d="M314 292c8-26 25-40 52-40s44 14 52 40" fill="#d9b89d"/>
+  <path d="M248 96h94c20 0 36 16 36 36v18h-42l-22 22v-22h-66c-20 0-36-16-36-36v-18c0-20 16-36 36-36Z" fill="#fff"/>
+</svg>
