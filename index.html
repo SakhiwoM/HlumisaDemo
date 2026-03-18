@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="assets/images/hlumisa-mark.svg">
+    <link rel="icon" type="image/png" href="assets/images/hlumisa-logo-social.png">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/layout.css">
@@ -20,14 +20,14 @@
 
     <header class="site-header" id="top">
       <div class="container header-inner">
-        <a class="brand" href="#home" aria-label="Hlumisa Youth Climate Network home">
-          <span class="brand-mark" aria-hidden="true"><img src="assets/images/hlumisa-mark.svg" alt=""></span>
-          <span class="brand-copy">Hlumisa<small>The Eswatini Youth Climate Network</small></span>
+        <a class="brand brand-image" href="#home" aria-label="Hlumisa Youth Climate Network home">
+          <img class="brand-logo" src="assets/images/hlumisa-logo-social.png" alt="Hlumisa - The Eswatini Youth Climate Network">
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span class="nav-toggle-line"></span><span class="nav-toggle-line"></span><span class="nav-toggle-line"></span></button>
         <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
           <a href="#home">Home</a><a href="#about">About</a><a href="#what-we-do">What We Do</a><a href="#projects">Projects</a><a href="#get-involved">Get Involved</a><a class="nav-cta" href="#donate">Donate</a><a href="#contact">Contact</a>
         </nav>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode"><span class="theme-toggle-icon" aria-hidden="true"></span></button>
       </div>
     </header>
 
@@ -49,11 +49,11 @@
           <div class="hero-visual reveal">
             <span class="hero-orb hero-orb-a" aria-hidden="true"></span><span class="hero-orb hero-orb-b" aria-hidden="true"></span>
             <div class="hero-image-card">
-              <!-- Replace this SVG with approved photography or artwork later. -->
-              <img src="assets/images/hero-climate.svg" alt="Illustration representing youth collaboration and environmental stewardship">
+              <!-- Replace this public social image with another approved Hlumisa image if needed. -->
+              <img src="assets/images/social-community-space.jpg" alt="Public Hlumisa social image showing young people gathering outdoors">
             </div>
             <article class="hero-stat-card card"><span>Movement focus</span><strong>Creative arts, education, and climate advocacy</strong></article>
-            <div class="hero-floating-badge"><img src="assets/images/hlumisa-logo.svg" alt="Hlumisa logo"><span>Volunteer-run movement in Eswatini</span></div>
+            <div class="hero-floating-badge"><img src="assets/images/hlumisa-logo-social.png" alt="Hlumisa logo"><span>Volunteer-run movement in Eswatini</span></div>
           </div>
         </div>
       </section>
@@ -189,7 +189,7 @@
     <footer class="site-footer">
       <div class="container footer-grid">
         <div class="footer-brand">
-          <a class="brand brand-footer" href="#home"><span class="brand-mark" aria-hidden="true"><img src="assets/images/hlumisa-mark.svg" alt=""></span><span class="brand-copy">Hlumisa<small>The Eswatini Youth Climate Network</small></span></a>
+          <a class="brand brand-footer brand-image" href="#home"><img class="brand-logo footer-logo" src="assets/images/hlumisa-logo-social.png" alt="Hlumisa - The Eswatini Youth Climate Network"></a>
           <p>An independent grassroots movement for young climate and environmental students, practitioners, and activists in Eswatini.</p>
         </div>
         <div><p class="footer-title">Quick Links</p><nav class="footer-list" aria-label="Footer navigation"><a href="#about">About Us</a><a href="#what-we-do">What We Do</a><a href="#projects">Projects</a><a href="#get-involved">Get Involved</a><a href="#donate">Donate</a><a href="#contact">Contact</a></nav></div>
@@ -197,9 +197,9 @@
           <p class="footer-title">Connect</p>
           <div class="footer-list"><a href="mailto:hlumisa.eswatini@gmail.com">hlumisa.eswatini@gmail.com</a><a href="#contact">Eswatini</a><a href="#donate">Support the movement</a></div>
           <div class="social-row footer-social">
-            <a class="social-link" href="https://www.instagram.com/hlumisa_sz?igsh=MTNpdGVzYTcyN2sxMw==" target="_blank" rel="noreferrer" aria-label="Hlumisa Instagram"><span class="social-mark" aria-hidden="true">IG</span><span>Instagram</span></a>
-            <a class="social-link" href="https://www.facebook.com/share/17DvACKTM2/" target="_blank" rel="noreferrer" aria-label="Hlumisa Facebook"><span class="social-mark" aria-hidden="true">FB</span><span>Facebook</span></a>
-            <a class="social-link" href="https://www.linkedin.com/company/hlumisa-youth-climate-network/" target="_blank" rel="noreferrer" aria-label="Hlumisa LinkedIn"><span class="social-mark" aria-hidden="true">IN</span><span>LinkedIn</span></a>
+            <a class="social-link" href="https://www.instagram.com/hlumisa_sz?igsh=MTNpdGVzYTcyN2sxMw==" target="_blank" rel="noreferrer" aria-label="Hlumisa Instagram"><span class="social-mark social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.7" r="1"></circle></svg></span><span>Instagram</span></a>
+            <a class="social-link" href="https://www.facebook.com/share/17DvACKTM2/" target="_blank" rel="noreferrer" aria-label="Hlumisa Facebook"><span class="social-mark social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3.2l.8-4H13V9c0-.7.3-1 1-1Z"></path></svg></span><span>Facebook</span></a>
+            <a class="social-link" href="https://www.linkedin.com/company/hlumisa-youth-climate-network/" target="_blank" rel="noreferrer" aria-label="Hlumisa LinkedIn"><span class="social-mark social-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6.8 8.5a1.9 1.9 0 1 1 0-3.8 1.9 1.9 0 0 1 0 3.8Zm-1.7 2.1h3.3v8.4H5.1Zm5.3 0h3.2v1.2h.1c.4-.8 1.5-1.6 3.1-1.6 3.4 0 4 2.1 4 4.9v5h-3.3v-4.4c0-1 0-2.4-1.5-2.4s-1.7 1.1-1.7 2.3v4.5h-3.3Z"></path></svg></span><span>LinkedIn</span></a>
           </div>
         </div>
       </div>
@@ -214,6 +214,19 @@
         <p>Your selected contribution is <strong id="modal-amount">E100</strong>. This prototype can later be connected to PayPal, Stripe, Flutterwave, Paystack, or bank transfer details.</p>
         <p class="micro-copy">Update the button action or replace this modal when a live donation workflow is ready.</p>
         <div class="modal-actions"><button class="btn btn-primary" type="button" data-close-modal>Close</button><a class="btn btn-secondary" href="#contact">Contact the Team</a></div>
+      </div>
+    </div>
+
+    <div class="modal" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="project-modal-title" hidden>
+      <button class="modal-overlay" type="button" data-close-project aria-label="Close project modal"></button>
+      <div class="modal-dialog project-modal-dialog">
+        <button class="modal-close" type="button" data-close-project aria-label="Close modal"><span aria-hidden="true">&times;</span></button>
+        <p class="card-kicker" id="project-modal-tag">Project Detail</p>
+        <h3 id="project-modal-title">Project title</h3>
+        <img id="project-modal-image" src="" alt="">
+        <p id="project-modal-text"></p>
+        <p class="micro-copy" id="project-modal-detail"></p>
+        <div class="modal-actions"><button class="btn btn-primary" type="button" data-close-project>Close</button><a class="btn btn-secondary" href="#contact">Get in Touch</a></div>
       </div>
     </div>
 
